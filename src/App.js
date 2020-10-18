@@ -28,6 +28,9 @@ class App extends Component {
         <br></br>
         <Switch>
           <Route path='/' component={Content} exact/>
+          <Route path='/create' component={Header} exact/>
+          <Route path='/read' component={Footer} exact/>
+
         </Switch>
 
 
