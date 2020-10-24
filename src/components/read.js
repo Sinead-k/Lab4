@@ -1,4 +1,5 @@
 import React from 'react';
+import { Jumbotron } from 'react-bootstrap';
 import{ Movies } from './movies';
 
 export class Read extends React.Component{
@@ -33,8 +34,9 @@ export class Read extends React.Component{
     render(){
         return(
             <div>
-                <h1>Movie List</h1>
-                <hr></hr>
+                <h1><i>Movie List</i></h1>
+                <br></br>
+                
                 {/* Movie Component embedded into the Read Component */}
                 {/* Curly Brackets used to embed JavaScript */}
                 <Movies movies={this.state.movies}></Movies>
