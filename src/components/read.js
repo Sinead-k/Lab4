@@ -14,7 +14,8 @@ export class Read extends React.Component{
             .then((response) => {
                 this.setState({ movies: response.data.Search })
             })
-            .catch();
+            .catch((error)=>{console.log(error)
+            });
     }
 
     render(){
