@@ -20,7 +20,7 @@ export class Read extends React.Component{
 
     render(){
         return(
-            <div>
+            <div className='App'>
                 <h1><i>Movie List</i></h1>
                 <br></br>
                 
